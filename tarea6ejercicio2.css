@@ -1,0 +1,46 @@
+.contenedor
+{
+    display: flex;
+    flex-flow: row-reverse;
+    border-style:solid;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.item1
+{
+    background-color: red;
+	width: 150px;
+	height: 150px;
+	font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.item2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 150px;
+	height: 150px;
+	font-size: 30px;
+    color: white;
+}
+.item3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 150px;
+	height: 150px;
+	font-size: 30px;
+    color: white;
+}
